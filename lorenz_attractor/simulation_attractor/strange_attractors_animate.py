@@ -44,8 +44,8 @@ frame_count = 1
 for i in range(0,n-s,s):
     fig = plt.figure(figsize=(6,6),dpi=90)
     ax1 = fig.add_subplot(1,1,1, projection='3d')
-    ax1.plot(x1[0:i+s+1], y1[0:i+s+1], z1[0:i+s+1], color='blue', alpha=0.4)
-    ax1.plot(x2[0:i+s+1], y2[0:i+s+1], z2[0:i+s+1], color='red', alpha=0.4)
+    ax1.plot(x1[0:i+s+1], y1[0:i+s+1], z1[0:i+s+1], color='blue', alpha=0.9)
+    ax1.plot(x2[0:i+s+1], y2[0:i+s+1], z2[0:i+s+1], color='red', alpha=0.9)
     ax1.set_xlim((-20,20))
     ax1.set_ylim((-20,20))
     ax1.set_zlim((0,45))

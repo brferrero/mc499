@@ -2,7 +2,7 @@
 
 INPUT=${1:-fig}
 OUTPUT=${2:-lorenz_attractor.mp4}
-FPS=5
+FPS=36
 
 # rename and create link
 LISTA=`ls ${INPUT}/*.png`
